@@ -2961,9 +2961,9 @@ cite {
 /* 注意事項 */
 .product-notice{
     width: 100%;
+    padding: 10px;
 }
 .product-notice .container{
-    width: 95%;
     margin: 0 auto;
     background-color: var(--light-color);
     padding: 2rem;
