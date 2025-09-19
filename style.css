@@ -2917,6 +2917,22 @@ cite {
     text-align: center;
 }
 
+/* 解説ページのトップ画像 */
+.image-container {
+  width: 100%;           /* 親要素いっぱいに */
+  height: 300px;         /* 高さは任意に設定 */
+  overflow: hidden;      /* 高さを超えた部分は隠す */
+  position: relative;
+}
+
+.image-container img {
+  width: 100%;           /* 横幅いっぱい */
+  height: 100%;          /* 親の高さに合わせる */
+  object-fit: cover;     /* 高さや幅に合わせて切り取り */
+  object-position: center; /* 中央を基準に切り取り */
+  display: block;
+}
+
 /* 注意事項 */
 .product-notice{
     gap: 30px;
