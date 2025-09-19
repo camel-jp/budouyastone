@@ -2430,14 +2430,10 @@ cite {
 
 .elements-indicators {
     display: grid;
+    grid-template-columns: repeat(5, 1fr);
     gap: 10px;
     margin: 20px auto;
     max-width: 400px;
-}
-
-/* デフォルト */
-.elements-indicators{
-    grid-template-columns: repeat(5, 1fr);
 }
 
 /* 9種セット */
