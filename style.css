@@ -2964,12 +2964,10 @@ cite {
     padding: 10px;
 }
 .product-notice .container{
-    margin: 0 auto;
     background-color: var(--light-color);
     padding: 2rem;
     border-radius: 12px;
     box-shadow: var(--shadow);
-    font-family: sans-serif;
 }
 
 .product-notice h2 {
