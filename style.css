@@ -2635,13 +2635,6 @@ cite {
 .stock-indicator-bar.out-of-stock .bar { background-color: var(--gray-color); }
 .stock-indicator-bar.out-of-stock .quantity { color: var(--gray-color); }
 
-.other-items-section h2 {
-    text-align: center;
-    margin-bottom: 40px;
-    font-size: 2em;
-    color: var(--dark-color); /* 変数を適用 */
-}
-
 /* --- その他の商品セクション --- */
 .other-items {
     display: flex;
