@@ -2930,15 +2930,11 @@ cite {
 }
 
 /* 注意事項 */
-.product-notice{
-    gap: 30px;
-    width: 90%;
-    padding: 0 auto;
-}
 .product-notice .container{
     background-color: var(--light-color);
+    width: 85%;
     padding: 2rem;
-    margin: 10px auto;
+    margin: 0 auto;
     border-radius: 12px;
     box-shadow: var(--shadow);
     transition: var(--transition);
