@@ -2934,7 +2934,7 @@ cite {
     background-color: var(--light-color);
     width: 85%;
     padding: 2rem;
-    margin: 0 auto;
+    margin: 10px auto;
     border-radius: 12px;
     box-shadow: var(--shadow);
     transition: var(--transition);
