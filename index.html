@@ -316,5 +316,30 @@
                     </div>
                 </div>
         </section>
-    </body> 
+    </body>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            // セレクト要素を取得
+            const selectElement = document.getElementById('amountSelect');
+
+            // changeイベントリスナーを追加
+            selectElement.addEventListener('change', function(event) {
+                const selectedValue = event.target.value;
+                const numItems = Number(selectedValue);
+                const itemPrice = "{ItemPrice}";
+                const itemPriceInt = Number(itemPrice.replace(/[^0-9.-]+/g,""));
+                const formatter = new Intl.NumberFormat('ja-JP', {
+                    style: 'currency',
+                    currency: 'JPY',
+                    minimumFractionDigits: 0, // 小数点以下を表示しない
+                });
+                const price = numItems * itemPriceInt;
+                const numItemsStr = (numItems > 1) ? ` / ${numItems}個` : "";
+                // const purchaseButtons = document.querySelectorAll('.purchaseButton .purchaseButton__btn');
+                purchaseButtons.forEach(function(el) {
+                    el.textContent = `購入する ${formatter.format(price)}${numItemsStr}`;
+                });    
+            })
+        });
+    </script>
 </html>
