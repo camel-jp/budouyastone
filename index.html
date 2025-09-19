@@ -10,29 +10,21 @@
         <script src="https://cdn.jsdelivr.net/gh/jimyi/jquery_bottom@1b7e2204c9193647884581804011ceb5d1d95aac/jquery.bottom-1.0.min.js"></script>
     </head>
     <body>
-        <header id="mainHeader" class="wrapper product-{ItemId}">
-            <div id="shopHeader">
-                <h1 class="not-content-for-elemnt-cube"><a href="{IndexPageURL}" id="logo">{LogoTag}</a></h1>
-                <nav>
+        <header class="header">
+            <div class="container">
+                <div class="logo">
+                    <h1><a href="https://www.budouyastone.com/">葡萄屋</a></h1>
+                </div>
+                <nav class="nav">
                     <ul>
-                        <li><a class="mainHeaderNavColor" href="{IndexPageURL}">HOME</a></li>
-                        <li><a class="mainHeaderNavColor" href="{AboutPageURL}">ABOUT</a></li>
-                        <li><a class="mainHeaderNavColor" href="{ContactPageURL}">CONTACT</a></li>
+                        <li><a href="https://www.budouyastone.com/">HOME</a></li>
+                        <li><a href="https://www.budouyastone.com/about">ABOUT</a></li>
+                        <li><a href="https://www.budouyastone.com/contact">CONTACT</a></li>
                     </ul>
                 </nav>
-                {block:AppsItemCategory}{block:IndexPageCategory}
-                    <h2 class="categoryTitle01">{IndexPageCategory}</h2>
-                    {block:HasAppsItemCategoryChildCategories}
-                        <ul class="childCategoryList01">
-                            {block:AppsItemCategoryChildCategories}
-                            <li class="childCategoryList01_child"><a href="{AppsItemCategoryChildCategoryPageURL}" class="childCategoryList01_link">{AppsItemCategoryChildCategoryName}</a></li>
-                            {/block:AppsItemCategoryChildCategories}
-                        </ul>
-                    {/block:HasAppsItemCategoryChildCategories}
-                {/block:IndexPageCategory}{/block:AppsItemCategory}
             </div>
         </header>
-    <section id="details" class="product-details">
+        <section id="details" class="product-details">
             <div class="container">
                 <div class="elements-indicators">
                     <div class="element-indicator active" data-symbol="C">C</div>
