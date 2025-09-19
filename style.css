@@ -2957,3 +2957,69 @@ cite {
     width: 200px;
     text-align: center;
 }
+
+.product-notice {
+  background-color: var(--light-color);
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: var(--shadow);
+  font-family: sans-serif;
+}
+
+.product-notice h2 {
+  color: var(--primary-color);
+  margin-bottom: 1.5rem;
+  font-size: 1.8rem;
+}
+
+.notice-category {
+  margin-bottom: 1.5rem;
+}
+
+.notice-category h3 {
+  font-size: 1.3rem;
+  margin-bottom: 0.8rem;
+  border-left: 4px solid;
+  padding-left: 0.5rem;
+}
+
+.notice {
+  h3 {
+    color: var(--accent-color);
+    border-color: var(--accent-color);
+  }
+}
+
+.prohibited {
+  h3 {
+    color: var(--danger-color);
+    border-color: var(--danger-color);
+  }
+}
+
+.notice-category ul {
+  list-style: none; /* デフォルトマーカーを消す */
+  padding-left: 0;
+}
+
+.notice-category li {
+  margin-bottom: 0.5rem;
+  line-height: 1.5;
+  position: relative;
+  padding-left: 2rem;
+}
+
+/* アイコンを擬似要素で追加 */
+.notice li::before {
+  content: "⚠️";
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.prohibited li::before {
+  content: "🚫";
+  position: absolute;
+  left: 0;
+  top: 0;
+}
