@@ -1980,7 +1980,7 @@ body.template .etc-menu span {
 .header {
     background-color: white;
     box-shadow: var(--shadow);
-    position: sticky;
+    position: fixed;
     top: 0;
     z-index: 1000;
     padding: 15px 0;
@@ -2553,7 +2553,7 @@ cite {
 
 .item-option {
     background-color: white;
-    padding: 25px;
+    padding: 30px;
     border-radius: 8px;
     box-shadow: var(--shadow);
     margin-bottom: 30px;
