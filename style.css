@@ -2953,6 +2953,10 @@ cite {
 
 /* 注意事項 */
 .product-notice{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
     width: 90%;
     padding: 0 auto;
 }
@@ -2961,12 +2965,6 @@ cite {
     padding: 2rem;
     border-radius: 12px;
     box-shadow: var(--shadow);
-}
-
-.product-notice h2 {
-  color: var(--primary-color);
-  margin-bottom: 1.5rem;
-  font-size: 1.8rem;
 }
 
 .notice-category {
