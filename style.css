@@ -2434,6 +2434,12 @@ cite {
     margin: 20px auto;
     max-width: 400px;
 }
+
+/* デフォルト */
+.elements-indicators{
+    grid-template-columns: repeat(5, 1fr);
+}
+
 /* 9種セット */
 .product-115127875 .elements-indicators{
     grid-template-columns: repeat(3, 1fr);
