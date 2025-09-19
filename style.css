@@ -2889,40 +2889,6 @@ cite {
     border: 2px solid var(--primary-color);
 }
 
-/* デフォルトでは非表示 */
-.content-for-elemnt-cube {
-    display: none;
-}
-
-/* 商品が元素標本キューブセットのときだけ表示 */
-.product-87999715 .content-for-elemnt-cube, .product-115127926 .content-for-elemnt-cube, .product-115127875 .content-for-elemnt-cube {
-    display: block;
-}
-
-/* セット毎に異なるコンテンツ デフォルトでは非表示 */
-.set9, .set16, .set25 {
-    display: none;
-}
-
-/* 9種セットの時だけ表示 */
-.product-115127875 .set9{
-    display: block;
-}
-
-/* 16種セットの時だけ表示 */
-.product-87999715 .set16{
-    display: block;
-}
-
-/* 25種セットの時だけ表示 */
-.product-115127926 .set25{
-    display: block;
-}
-/* 準備中 */
-.preparation {
-    display: none;
-}
-
 .acryl-base-banner {
     display: flex;
     justify-content: flex-start;
