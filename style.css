@@ -2931,6 +2931,12 @@ cite {
     padding: 2rem;
     border-radius: 12px;
     box-shadow: var(--shadow);
+
+    flex-basis: 250px;
+    flex-grow: 1;
+    max-width: 400px;
+
+    transition: var(--transition);
 }
 
 .notice-category {
