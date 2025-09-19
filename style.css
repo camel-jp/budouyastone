@@ -2959,7 +2959,7 @@ cite {
 }
 
 /* 注意事項 */
-.product-notice {
+.product-notice .container{
   background-color: var(--light-color);
   padding: 2rem;
   border-radius: 12px;
