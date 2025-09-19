@@ -2942,7 +2942,7 @@ cite {
 .product-notice .container{
     background-color: var(--light-color);
     padding: 2rem;
-    margin: 10px 0;
+    margin: 10px auto;
     border-radius: 12px;
     box-shadow: var(--shadow);
     transition: var(--transition);
