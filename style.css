@@ -2959,12 +2959,17 @@ cite {
 }
 
 /* 注意事項 */
+.product-notice{
+    width: 100%;
+}
 .product-notice .container{
-  background-color: var(--light-color);
-  padding: 2rem;
-  border-radius: 12px;
-  box-shadow: var(--shadow);
-  font-family: sans-serif;
+    width: 95%;
+    margin: 0 auto;
+    background-color: var(--light-color);
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: var(--shadow);
+    font-family: sans-serif;
 }
 
 .product-notice h2 {
