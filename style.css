@@ -2424,10 +2424,6 @@ cite {
 }
 
 /* 製品詳細セクション */
-.product-details {
-    background-color: white;
-}
-
 .elements-indicators {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
