@@ -2958,6 +2958,7 @@ cite {
     text-align: center;
 }
 
+/* 注意事項 */
 .product-notice {
   background-color: var(--light-color);
   padding: 2rem;
