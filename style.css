@@ -378,10 +378,7 @@ a.cboxElement:focus {
 .icon-pin:before {
     content: "\e929";
 }
-</style>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jackmoore/colorbox@1.6.4/example1/colorbox.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700">
-<style>
+
 #reportBtn a.cboxElement button {
     cursor: pointer;
 }
