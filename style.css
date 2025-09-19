@@ -2926,7 +2926,7 @@ cite {
   width: 100%;           /* 横幅いっぱい */
   height: 100%;          /* 親の高さに合わせる */
   object-fit: cover;     /* 高さや幅に合わせて切り取り */
-  object-position: center; /* 中央を基準に切り取り */
+  object-position: center top; /* 中央を基準に切り取り */
   display: block;
 }
 
