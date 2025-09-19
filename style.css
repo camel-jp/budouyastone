@@ -2919,9 +2919,6 @@ cite {
 
 /* 注意事項 */
 .product-notice{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
     gap: 30px;
     width: 90%;
     padding: 0 auto;
@@ -2929,13 +2926,9 @@ cite {
 .product-notice .container{
     background-color: var(--light-color);
     padding: 2rem;
+    margin: 10px 0;
     border-radius: 12px;
     box-shadow: var(--shadow);
-
-    flex-basis: 250px;
-    flex-grow: 1;
-    max-width: 400px;
-
     transition: var(--transition);
 }
 
