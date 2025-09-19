@@ -1980,6 +1980,7 @@ body.template .etc-menu span {
 .header {
     background-color: white;
     box-shadow: var(--shadow);
+    width: 100%;
     position: fixed;
     top: 0;
     z-index: 1000;
@@ -2916,7 +2917,7 @@ cite {
 /* 解説ページのトップ画像 */
 .image-container {
   width: 100%;           /* 親要素いっぱいに */
-  height: 100px;         /* 高さは任意に設定 */
+  height: 300px;         /* 高さは任意に設定 */
   overflow: hidden;      /* 高さを超えた部分は隠す */
   position: relative;
 }
@@ -2991,3 +2992,4 @@ cite {
   left: 0;
   top: 0;
 }
+
